@@ -1,2 +1,23 @@
-# README
-This project uses 20 years of NBA statistics to predict the league's MVP finalists in a given season. Part one of this project reads and cleans three separate datasets that include general player, team, and MVP stastics from 1991 to 2021. After merging all datasets together, the output is a cleaned dataset ready for modeling. Using this data, part two trains two machine learning models to predict the league's MVP finalists based on player statistics. The project then develops a proprietary error metric to measure model performance and conducts backtesting to assess overall accuracy. Feature engineering is then conducted to further minimize the model's error. Finally, the model is fed a new dataset of 2022-23 statistics to predict MVP finalists at minimal error. In the future, more model tweaking is needed to refine the model predictions even futher.
+# NBA MBP Finalist Prediction
+
+This project uses 20 years of NBA statistics to predict the league's MVP finalists in a given season. The project performs extensive data cleaning and pre-processing before training two supervised learning models. The models are then backtested with a proprietary error metric to tune hyperparameters and feature selection.
+
+## Project Structure
+
+- **notebooks/**: Contains Jupyter notebooks for data cleaning and model training.
+  - `data_cleaning.ipynb`: Notebook for cleaning and merging various NBA datasets.
+  - `modeling.ipynb`: Notebook for training and evaluating supervised learning models.
+
+- **data/**: Contains all data files.
+  - `cleaned_data.csv`: Cleaned NBA data from 1991 to 2021, including MVP voting and team statistics.
+  - `mvps.csv`: Player statistics for all players recieivng MVP votes between 1991 and 2021.
+  - `nicknames.csv`: Contains a mapping of three-letter team nicknames to full team names.
+  - `players.csv`: Player statistics for all players between 1991 and 2021.
+  - `stats_2022.csv`: Player and team statistics for the 2022-23 NBA season.
+  - `teams.csv`: Teams statistics for all teams between 1991 and 2021.
+
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) for details.

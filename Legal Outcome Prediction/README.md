@@ -23,7 +23,7 @@ The legal outcome prediction model yields a validation accuracy of 65.5%. Althou
   - `modeling.ipynb`: Notebook for training and evaluating classification models.
 
 - **data/**: Contains all data files.
-  - `cleaned_class_action`: Contains cleaned and tokenized case descriptions.
+  - `cleaned_class_action.json`: Contains cleaned and tokenized case descriptions.
   - `X.npy`: Contains the feature matrix of embedded documents.
   - `modeling.ipynb`: Contains the target vector.
 
