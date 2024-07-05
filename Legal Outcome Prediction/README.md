@@ -33,8 +33,6 @@ The legal outcome prediction model yields a validation accuracy of 65.5%. Althou
 
 - **LICENSE**: Project license.
 
-- **.gitignore**: Specifies files and directories to be ignored by Git.
-
 ## Setup Instructions
 
 ### Prerequisites

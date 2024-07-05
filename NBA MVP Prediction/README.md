@@ -16,8 +16,6 @@ This project uses 20 years of NBA statistics to predict the league's MVP finalis
   - `stats_2022.csv`: Player and team statistics for the 2022-23 NBA season.
   - `teams.csv`: Teams statistics for all teams between 1991 and 2021.
 
-- **.gitignore**: Specifies files and directories to be ignored by Git.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) for details.

@@ -12,5 +12,3 @@ Of the five customer segments identified, three are relatively older in age. One
 
 - **data/**: Contains the project's data file.
   - `Mall_Customers.csv`: Contains the spending behavior and demographics for 200 mall customers.
-
-- **.gitignore**: Specifies files and directories to be ignored by Git.
