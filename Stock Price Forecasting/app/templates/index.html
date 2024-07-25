@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Price Prediction</title>
+</head>
+<body>
+    <h1>Stock Price Prediction</h1>
+    <form method="POST">
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date">
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <h2>Prediction for {{ date }}: ${{ prediction }}</h2>
+        <img src="{{ url_for('static', filename='prediction_plot.png') }}" alt="Prediction Plot">
+    {% endif %}
+</body>
+</html>

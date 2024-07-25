@@ -25,6 +25,7 @@ The legal outcome prediction model yields a validation accuracy of 65.5%. Althou
 - **data/**: Contains all data files.
   - `cleaned_class_action.json`: Contains cleaned and tokenized case descriptions.
   - `X.npy`: Contains the feature matrix of embedded documents.
+  - `y.npy`: Contains the target vector of case outcomes.
   - `modeling.ipynb`: Contains the target vector.
 
 - **requirements.txt**: List of Python dependencies.

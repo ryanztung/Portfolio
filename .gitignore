@@ -7,3 +7,9 @@
 # Python specific
 *.py[cod]
 *$py.class
+
+# Ignore virtual environment
+venv/
+
+# VSCode
+**/tempCodeRunnerFile.py
