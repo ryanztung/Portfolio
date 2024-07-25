@@ -32,3 +32,35 @@ In this project, I perform time series forecasting on 15 years of AAPL stock to 
 - **README.md**: Project overview.
 
 - **LICENSE**: Project license.
+
+## Setup Instructions
+
+### Prerequisites
+
+- Python 3.7+
+- pip
+
+### Installation
+
+1. **Install dependencies:**
+   ```sh
+   cd 'Stock Price Forecasting'
+   pip install r requirements.txt
+   ```
+
+2. **Run the Flask application:**
+   ```sh
+   python app/main.py
+   ```
+
+## Usage
+
+1. **Input prediction date:**
+    Input prediction date into field.
+
+2. **Predict outcome:**
+    Click the "Predict" button to obtain the close price prediction and visualization.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) for details.
